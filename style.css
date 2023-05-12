@@ -1,0 +1,27 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(./image/pexels-emmanuel-ikwuegbu-7861955.jpg);
+    background-size: cover;
+    
+}
+.navbar{
+    margin: 10px 30px 0px 50px ;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: white;
+}
+.navlinks ul{
+    display: flex;
+    margin-left: 400px;
+}
+.navlinks ul li{
+    margin: 0 30px 0 30px;
+}
+.navlinks ul li a{
+    color: white;
+}
