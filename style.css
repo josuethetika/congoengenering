@@ -11,3 +11,21 @@
     min-height: 100vh;
     width: 100%;
 }
+nav{
+    display: flex;
+    padding:2% 6%;
+    background-position: center;
+    position: relative;
+    justify-content: space-between;
+}
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li{
+    margin:0 30px 0 30px;
+}
+.nav-links ul li a{
+    color: #fff;
+}
+
+
