@@ -38,5 +38,20 @@ nav{
     font-family:'Lexend Deca', sans-serif; ;
 }
 
+.nav-links ul li::after{
+    content:'';
+    width: 0;
+    height: 2px;
+    display: block;
+    background: firebrick;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    cursor: pointer;
+}
+
+
 
 
