@@ -71,24 +71,36 @@ nav{
     margin-top: 20px;
     font-size: 13px;
 }
-.btn{
-    margin-top:40px;
 
-}
-.btn button{
+
+ button{
     width: 140px;
     height: 40px;
     background-color: transparent;
     border: 1px solid firebrick;
     color: #fff;
-    border-radius:10px;
-    transition: all ease-in-out;
-}
-.btn button:hover{
-    background-color: firebrick;
- 
+    border-radius:20px;
+    margin-top:40px;
+    position: relative;
+    transition: 0.5S;
     
 }
+
+.spn{
+    background: firebrick;
+    border-radius:20px;
+    width:0;
+    height: 100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    transition: 0.5S;
+}
+button:hover span{
+    width: 100%;
+}
+
 
 
 
