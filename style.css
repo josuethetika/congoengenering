@@ -16,11 +16,12 @@ body{
 }
 nav{
     display: flex;
-    padding:2% 6%;
+    padding: 2% 6%;
     background-position: center;
     position: relative;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 
@@ -106,6 +107,9 @@ nav{
 button:hover span{
     width: 100%;
 }
+img{
+    display: none;
+}
 @media(max-width:886px){
     .logo h4{
         font-size: 14px;
@@ -136,8 +140,30 @@ button:hover span{
         font-size: 11px;
     }
 }
-@media(max-width:534px)
-
+@media(max-width:534px){
+    
+    img{
+        display: block;
+        width: 25px;
+    }
+    .text-box h1{
+        font-size:40px;
+    }
+    .nav-links{
+        position: absolute;
+        top: 0;
+        right:0;
+        background-color: firebrick;
+        width: 200px;
+        height:100vh;
+        text-align: left;
+        z-index: 2;
+        float: right;
+    }
+    nav{
+        height: 100%;
+    }
+}
 
 
 
