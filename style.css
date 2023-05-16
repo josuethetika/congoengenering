@@ -34,7 +34,7 @@ nav{
 }
 .nav-links{
     flex: 1;
-    text-align: right
+    text-align: right;
 }
 /* .nav-links ul{
     display: flex;
@@ -120,6 +120,11 @@ button:hover span{
         margin:0 20px 0 20px;
     }
 
+}
+@media(max-width:686px){
+    nav{
+        margin-right: 0px;
+    }
 }
 
 
