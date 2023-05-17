@@ -144,17 +144,19 @@ img{
     
     img{
         display: block;
-        width: 25px;
+        position: absolute;
+        top: 0%;
+        left: 0;
     }
     .text-box h1{
-        font-size:40px;
+        font-size:30px;
     }
     .nav-links{
         position: absolute;
         top: 0;
         right:0;
-        background-color: firebrick;
-        width: 200px;
+        background-color:firebrick;
+        width: 250px;
         height:100vh;
         text-align: left;
         z-index: 2;
