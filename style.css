@@ -166,6 +166,46 @@ img{
         height: 100%;
     }
 }
+.nos-services h1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+}
+.nos-services h1::after{
+      content:'';
+      height: 3px;
+      display: block;
+      width: 150px;
+      background: firebrick;
+      position: absolute;   
+      margin-top:42px;
+      border-radius: 5px;
+      
+
+}
+
+.nos-services img{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nos-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images .card{
+    margin: 20px;
+}
+    
 
 
 
