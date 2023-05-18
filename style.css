@@ -186,10 +186,11 @@ img{
 }
 
 .nos-services img{
-    width: 400px;
+    width: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .nos-services{
@@ -201,9 +202,19 @@ img{
 .images{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .images .card{
     margin: 20px;
+    align-items:center ;
+
+
+}
+.images .card h3{
+    margin-top:20px ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
     
 
