@@ -57,6 +57,7 @@ nav{
     display: block;
     background: firebrick;
     margin: auto;
+    margin-top: 5px;
     transition: 0.5s;
 }
 .nav-links ul li:hover::after{
@@ -142,12 +143,7 @@ img{
 }
 @media(max-width:534px){
     
-    img{
-        display: block;
-        position: absolute;
-        top: 0%;
-        left: 0;
-    }
+   
     .text-box h1{
         font-size:30px;
     }
@@ -205,6 +201,7 @@ img{
     
 }
 .images .card{
+    
     margin: 20px;
     align-items:center ;
 
@@ -215,6 +212,13 @@ img{
     justify-content: center;
     display: flex;
     align-items: center;
+}
+.images .card p{
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  
 }
     
 
